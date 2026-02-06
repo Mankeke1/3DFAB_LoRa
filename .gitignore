@@ -1,0 +1,45 @@
+# Dependencias
+node_modules/
+
+# Archivos de entorno (¡NUNCA confirmar/commit!)
+.env
+.env.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Mantener ejemplos
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Salidas de construcción (Build)
+dist/
+build/
+
+# Logs y claves (seguridad)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+backend/logs/
+backend/keys/
+backend/coverage/
+
+# Archivos del SO
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+
+# Docker
+docker-compose.override.yml
