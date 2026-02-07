@@ -90,6 +90,7 @@ npm run dev
 **Credenciales de prueba:**
 
 - Admin: `admin / admin123`
+- Admin `Fabian / .Fabian.123.123` en tal caso de que no sea admin123
 - Cliente: `lab1 / lab123`
 
 Accede a: <http://localhost:5173>
